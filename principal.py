@@ -14,7 +14,7 @@ def main():
             elemento = input("Elemento a eliminar: ")
             eliminar_elemento(lista, elemento)
         elif opcion == "3":
-            mostarr_lista(lista)
+            mostar_lista(lista)
         elif opcion == "4":
             break
         else:
