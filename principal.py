@@ -1,4 +1,4 @@
-from operaciones_lista import agregar_elemento, eliminar_elemento, mostarr_lista
+from operaciones_lista import agregar_elemento, eliminar_elemento, mostrar_lista
 
 
 def main():
@@ -14,7 +14,7 @@ def main():
             elemento = input("Elemento a eliminar: ")
             eliminar_elemento(lista, elemento)
         elif opcion == "3":
-            mostar_lista(lista)
+            mostrar_lista(lista)
         elif opcion == "4":
             break
         else:

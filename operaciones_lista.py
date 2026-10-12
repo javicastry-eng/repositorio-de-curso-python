@@ -9,5 +9,5 @@ def eliminar_elemento(lista, elemento):
     return lista
 
 
-def mostar_lista(lista):
+def mostrar_lista(lista):
     print("Lista actual:", lista)
