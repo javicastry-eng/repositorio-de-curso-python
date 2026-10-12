@@ -17,3 +17,5 @@ def buscar_elemento(lista, elemento):
         print(f"{elemento} esta en la lista")
     else:
         print(f"{elemento} no esta en la lista")
+        # comentario agregado desde GitHub web
+
