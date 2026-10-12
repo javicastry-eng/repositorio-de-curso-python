@@ -11,3 +11,9 @@ def eliminar_elemento(lista, elemento):
 
 def mostrar_lista(lista):
     print("Lista actual:", lista)
+
+def buscar_elemento(lista, elemento):
+    if elemento in lista:
+        print(f"{elemento} esta en la lista")
+    else:
+        print(f"{elemento} no esta en la lista")
