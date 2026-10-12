@@ -10,7 +10,7 @@ def eliminar_elemento(lista, elemento):
 
 
 def mostrar_lista(lista):
-    print("Lista actual:", lista)
+    print("Lista actualizada:", lista)
 
 def buscar_elemento(lista, elemento):
     if elemento in lista:
